@@ -12,6 +12,8 @@
 
 参考https://github.com/lxn/walk
 
+go get github.com/lxn/walk 
+
 将 server.exe.manifest 放在 与 server.go 同级的目录下，执行 go build 。
 
 需要保证电脑此时连接WiFi，即在 cmd 中运行 ipconfig，可以看到 “无线局域网适配器 WLAN:”字段。
